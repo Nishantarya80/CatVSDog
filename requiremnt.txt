@@ -1,5 +1,0 @@
-###### Requirements without Version Specifiers ######`
-tensorflow
-pillow
-keras
-flask
