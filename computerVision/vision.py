@@ -28,5 +28,7 @@ def run_example(image):
     model = load_model("./computerVision/final_model.h5")
     # predict the class
     result = model.predict(img)
+    
+    os.remove("./computerVision/"+image)
 
     return result[0]
