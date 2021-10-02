@@ -3,8 +3,8 @@
 
 ```javascript
 {
- 'name': '',
- 'file' : 'base64string'
+ "name": "",
+ "file" : "base64string"
 }
   
 ```
