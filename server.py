@@ -16,6 +16,7 @@ def checking():
     return jsonify({"Output":int(output)})
 
 # New route
+# TE FER KRO NAAAAAAAAAAA
 @app.route("/checking2",methods = ['POST'])
 def checking2():
     f = request.json
