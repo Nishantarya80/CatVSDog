@@ -15,6 +15,7 @@ def checking():
     output = vision.run_example(f.filename)
     return jsonify({"Output":int(output)})
 
+# New route
 @app.route("/checking2",methods = ['POST'])
 def checking2():
     f = request.json
